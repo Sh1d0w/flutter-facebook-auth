@@ -92,9 +92,11 @@ packages:
   facebook_auth_desktop:
     dependency: "direct main"
     description:
-      path: "../facebook_auth_desktop"
-      relative: true
-    source: path
+      path: facebook_auth_desktop
+      ref: master
+      resolved-ref: "8093646d9cddfd904b48ed963a63f33d354b2385"
+      url: "https://github.com/sh1d0w/flutter-facebook-auth.git"
+    source: git
     version: "1.0.0"
   fake_async:
     dependency: transitive
